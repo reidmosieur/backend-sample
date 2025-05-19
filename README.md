@@ -1,4 +1,4 @@
-# Email Open Tracker (Take-Home Project)
+# Email Open Tracker
 A simple in-memory Node.js/Express service for tracking email open events. Intended as a demonstration of practical backend coding skills in a single-file, minimal environment.
 
 ## Features
@@ -28,7 +28,7 @@ GET /open?campaignId=123&userId=abc
 
 **Responses:**
 - `200 OK` – Successfully tracked
-- `404 Not Found` – Missing required fields
+- `400 Not Found` – Missing required fields
 
 ---
 
